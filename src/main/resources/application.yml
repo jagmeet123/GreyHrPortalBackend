@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: employee-management
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/employee_management?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8081
